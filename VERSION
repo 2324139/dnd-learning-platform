@@ -1,0 +1,19 @@
+0.1.0-alpha
+
+---
+
+Version History:
+- 0.1.0-alpha (2025-03-27): Initial release
+  - Complete worldbuilding documentation
+  - Game mechanics design
+  - Campaign system framework
+  - 40+ example campaigns
+  - Character class system
+  - NPC and story framework
+  - Solo D&D engine design
+
+Planned:
+- 0.2.0-beta: Core engine implementation
+- 0.3.0: Web platform launch
+- 0.4.0: Multiplayer features
+- 1.0.0: Full release

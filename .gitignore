@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.next/
+
+# Environment
+.env
+.env.local
+.env.*.local
+config/.env
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+database.yml
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.backup
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Game-specific
+saves/
+user_data/
+cache/
+*.save
+
+# Build artifacts
+*.o
+*.obj
+*.out
+*.exe
+
+# Documentation build
+site/
+docs/_build/

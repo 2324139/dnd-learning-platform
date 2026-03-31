@@ -1,0 +1,164 @@
+{
+  "kingdoms": [
+    {
+      "id": "mathematics",
+      "name": "數學王國",
+      "alternate_names": ["計算聖地", "算術帝國"],
+      "location": "北方",
+      "god": "阿基米德斯神",
+      "god_symbol": "∞",
+      "sacred_object": "無窮晶體",
+      "sacred_object_status": "partially_corrupted",
+      "ruler": "歐拉大帝",
+      "capital": "算術聖殿",
+      "attributes": {
+        "order": "high",
+        "creativity": "medium",
+        "warmth": "low",
+        "action_orientation": "low"
+      },
+      "primary_magic_school": "Evocation",
+      "representative_class": "Wizard",
+      "representative_discipline": "Mathematics",
+      "current_crisis": "無窮晶體功能減弱導致計算失誤"
+    },
+    {
+      "id": "physics",
+      "name": "物理王國",
+      "alternate_names": ["力學帝城", "運動聖地"],
+      "location": "東方",
+      "god": "牛頓尊神",
+      "god_symbol": "🍎",
+      "sacred_object": "力之球",
+      "sacred_object_status": "partially_corrupted",
+      "ruler": "伽利略牧師",
+      "capital": "力學帝城",
+      "attributes": {
+        "order": "medium",
+        "creativity": "low",
+        "warmth": "medium",
+        "action_orientation": "very_high"
+      },
+      "primary_magic_school": "Abjuration",
+      "representative_class": "Cleric",
+      "representative_discipline": "Physics",
+      "current_crisis": "熵風導致能量消耗加快"
+    },
+    {
+      "id": "chemistry",
+      "name": "化學王國",
+      "alternate_names": ["煉金之地", "元素聖殿"],
+      "location": "南方",
+      "god": "拉瓦節夫人",
+      "god_symbol": "🔥",
+      "sacred_object": "永恆焰石",
+      "sacred_object_status": "out_of_control",
+      "ruler": "拉瓦節聖者",
+      "capital": "化元城",
+      "attributes": {
+        "order": "low",
+        "creativity": "high",
+        "warmth": "high",
+        "action_orientation": "high"
+      },
+      "primary_magic_school": "Transmutation",
+      "representative_class": "Paladin",
+      "representative_discipline": "Chemistry",
+      "current_crisis": "失控化合物蔓延"
+    },
+    {
+      "id": "biology",
+      "name": "生物王國",
+      "alternate_names": ["生命之地", "自然聖域"],
+      "location": "西方",
+      "god": "達爾文聖者",
+      "god_symbol": "🧬",
+      "sacred_object": "進化之種",
+      "sacred_object_status": "malfunctioning",
+      "ruler": "達爾文德魯伊",
+      "capital": "生命城",
+      "attributes": {
+        "order": "low",
+        "creativity": "high",
+        "warmth": "very_high",
+        "action_orientation": "medium"
+      },
+      "primary_magic_school": "Conjuration",
+      "representative_class": "Druid",
+      "representative_discipline": "Biology",
+      "current_crisis": "不自然進化導致生態失衡"
+    },
+    {
+      "id": "literature",
+      "name": "文學王國",
+      "alternate_names": ["敘事城", "故事聖地"],
+      "location": "東南方",
+      "god": "荷馬詩靈",
+      "god_symbol": "✒️",
+      "sacred_object": "永恆故事書",
+      "sacred_object_status": "depleted",
+      "ruler": "荷馬古詩人",
+      "capital": "敘事城",
+      "attributes": {
+        "order": "low",
+        "creativity": "very_high",
+        "warmth": "high",
+        "action_orientation": "low"
+      },
+      "primary_magic_school": "Illusion",
+      "representative_class": "Bard",
+      "representative_discipline": "Literature",
+      "current_crisis": "靈感枯竭導致創意消失"
+    },
+    {
+      "id": "history",
+      "name": "歷史王國",
+      "alternate_names": ["編年城", "時間之地"],
+      "location": "西南方",
+      "god": "赫羅多德守望者",
+      "god_symbol": "⏳",
+      "sacred_object": "時間之鑰",
+      "sacred_object_status": "corrupted",
+      "ruler": "赫羅多德編者",
+      "capital": "編年城",
+      "attributes": {
+        "order": "high",
+        "creativity": "medium",
+        "warmth": "medium",
+        "action_orientation": "low"
+      },
+      "primary_magic_school": "Divination",
+      "representative_class": "LoreMaster",
+      "representative_discipline": "History",
+      "current_crisis": "歷史記錄被改寫與遺忘"
+    },
+    {
+      "id": "philosophy",
+      "name": "哲學王國",
+      "alternate_names": ["思想聖城", "真理之地"],
+      "location": "中心",
+      "god": "蘇格拉底哲人",
+      "god_symbol": "❓",
+      "sacred_object": "真理之鏡",
+      "sacred_object_status": "darkened",
+      "ruler": "蘇格拉底長者",
+      "capital": "思想聖城",
+      "attributes": {
+        "order": "medium",
+        "creativity": "very_high",
+        "warmth": "low",
+        "action_orientation": "low"
+      },
+      "primary_magic_school": "Enchantment",
+      "representative_class": "Sage",
+      "representative_discipline": "Philosophy",
+      "current_crisis": "虛無蔓延導致人心迷茫"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-03-27",
+    "status": "corrupted",
+    "threat_level": "critical"
+  }
+}
