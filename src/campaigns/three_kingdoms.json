@@ -1,0 +1,63 @@
+{
+  "campaign_id": "three_kingdoms",
+  "campaign_name": "三國演義：群雄逐鹿",
+  "era": "東漢末年 184-280 年",
+  "time_period": "Historical - Ancient China",
+  "difficulty_levels": [1, 5, 10, 15, 20, 25, 30],
+  "estimated_playtime_hours": "20-40",
+  "themes": ["軍事戰略", "政治陰謀", "歷史改變", "領導力"],
+  
+  "prologue": "大漢朝代衰微，天下大亂。黃巾賊起義在即，群雄割據在側。你是一位穿越時空的轉生者，帶著未來的知識與前世的記憶，將在這個亂世中做出抉擇，改變中國歷史的進程。",
+  
+  "acts": [
+    {
+      "act_number": 1,
+      "act_name": "黃巾之亂",
+      "year": 184,
+      "main_quest": "黃巾起義爆發，決定你的立場",
+      "decision_tree": {
+        "choice_1": {
+          "text": "加入黃巾軍，追求農民解放",
+          "attribute_changes": {"STR": 10, "INT": 5, "CHA": -5}
+        },
+        "choice_2": {
+          "text": "投靠官府，鎮壓農民起義",
+          "attribute_changes": {"WIS": 8, "CHA": 10}
+        }
+      }
+    },
+    {
+      "act_number": 4,
+      "act_name": "赤壁之戰",
+      "year": 208,
+      "main_quest": "歷史最關鍵的戰役",
+      "decision_tree": {
+        "choice_1": {
+          "text": "策劃火攻計（歷史路線）",
+          "attribute_changes": {"INT": 20, "WIS": 15},
+          "result": "天下三分"
+        },
+        "choice_2": {
+          "text": "阻止火攻（改變歷史）",
+          "attribute_changes": {"STR": 25},
+          "result": "曹操統一中國"
+        }
+      }
+    }
+  ],
+  
+  "historical_figures": [
+    {
+      "npc_id": "zhuge_liang",
+      "name": "諸葛亮",
+      "title": "軍事天才",
+      "reward_attributes": {"INT": 20, "WIS": 15}
+    },
+    {
+      "npc_id": "cao_cao",
+      "name": "曹操",
+      "title": "統一者",
+      "reward_attributes": {"CHA": 15, "WIS": 12}
+    }
+  ]
+}

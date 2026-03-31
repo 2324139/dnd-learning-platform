@@ -1,0 +1,116 @@
+{
+  "timeline": [
+    {
+      "epoch": 1,
+      "name": "童年冒險時代",
+      "level_range": "1-15",
+      "eras": [
+        {
+          "era_name": "古埃及文明",
+          "period": "BC 3000-30",
+          "key_campaigns": ["法老的秘密", "尼羅河的選擇"],
+          "key_figures": ["埃及豔后", "拉美西斯二世", "圖坦卡蒙"],
+          "learning_focus": "人類學、建築、古代政治"
+        },
+        {
+          "era_name": "東周春秋",
+          "period": "BC 771-476",
+          "key_campaigns": ["孔子的門徒", "諸子百家爭鳴"],
+          "key_figures": ["孔子", "老子", "莊子"],
+          "learning_focus": "哲學、中國文化、倫理思想"
+        },
+        {
+          "era_name": "古希臘民主",
+          "period": "BC 508-323",
+          "key_campaigns": ["雅典民主的誕生", "馬拉松戰役"],
+          "key_figures": ["伯里克利", "蘇格拉底", "亞里斯多德"],
+          "learning_focus": "民主制度、哲學、科學"
+        }
+      ]
+    },
+    {
+      "epoch": 2,
+      "name": "青年冒險時代",
+      "level_range": "16-40",
+      "eras": [
+        {
+          "era_name": "中世紀騎士",
+          "period": "AD 500-1400",
+          "key_campaigns": ["騎士的修行", "聖杯傳說"],
+          "key_figures": ["亞瑟王", "蘭斯洛特", "聖女貞德"],
+          "learning_focus": "騎士精神、宗教、中世紀社會"
+        },
+        {
+          "era_name": "伊斯蘭黃金時代",
+          "period": "AD 750-1258",
+          "key_campaigns": ["巴格達圖書館", "波斯詩人"],
+          "key_figures": ["花刺子密", "阿維森納", "安薩里"],
+          "learning_focus": "數學、醫學、哲學、天文學"
+        },
+        {
+          "era_name": "文藝復興",
+          "period": "AD 1300-1600",
+          "key_campaigns": ["佛羅倫薩學徒", "羅馬教宗藝術"],
+          "key_figures": ["達芬奇", "米開朗基羅", "馬基雅維利"],
+          "learning_focus": "藝術、科學、人文主義"
+        }
+      ]
+    },
+    {
+      "epoch": 3,
+      "name": "壯年冒險時代",
+      "level_range": "41-75",
+      "eras": [
+        {
+          "era_name": "大航海時代",
+          "period": "AD 1450-1650",
+          "key_campaigns": ["全球探險", "新世界發現"],
+          "key_figures": ["哥倫布", "達伽馬", "麥哲倫"],
+          "learning_focus": "地理探險、殖民制度、全球貿易"
+        },
+        {
+          "era_name": "科學革命",
+          "period": "AD 1500-1700",
+          "key_campaigns": ["天文學突破", "運動法則"],
+          "key_figures": ["哥白尼", "伽利略", "牛頓"],
+          "learning_focus": "物理學、天文學、實驗方法"
+        },
+        {
+          "era_name": "工業革命",
+          "period": "AD 1760-1840",
+          "key_campaigns": ["蒸汽機創新", "工人階級覺醒"],
+          "key_figures": ["瓦特", "馬克思", "羅伯特·歐文"],
+          "learning_focus": "工程、經濟、社會革命"
+        }
+      ]
+    },
+    {
+      "epoch": 4,
+      "name": "晚年冒險時代",
+      "level_range": "76-100",
+      "eras": [
+        {
+          "era_name": "信息革命",
+          "period": "AD 1950-2000",
+          "key_campaigns": ["電腦時代的誕生", "互聯網浪潮"],
+          "key_figures": ["圖靈", "香農", "喬布斯"],
+          "learning_focus": "計算機科學、信息論、數字化"
+        },
+        {
+          "era_name": "太空時代",
+          "period": "AD 1957-2000",
+          "key_campaigns": ["登月任務", "火星探索"],
+          "key_figures": ["馮·布朗", "尼爾·阿姆斯壯", "卡爾·薩根"],
+          "learning_focus": "太空科學、工程、人類夢想"
+        },
+        {
+          "era_name": "未來展望",
+          "period": "AD 2000-未來",
+          "key_campaigns": ["AI 時代", "綠色未來"],
+          "key_figures": ["待定"],
+          "learning_focus": "人工智能、生態學、永續發展"
+        }
+      ]
+    }
+  ]
+}

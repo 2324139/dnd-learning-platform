@@ -1,0 +1,88 @@
+{
+  "historical_figures": [
+    {
+      "id": "kongzi",
+      "name": "孔子",
+      "english_name": "Confucius",
+      "era": "春秋時期 (551-479 BC)",
+      "role": "思想家、教育家",
+      "teachings": "仁義禮樂、修身齊家治國平天下",
+      "interactions": [
+        "成為我的弟子，學習儒家思想",
+        "參與傳播仁義思想",
+        "編訂古籍"
+      ],
+      "reward_attributes": {"INT": 15, "WIS": 20, "CHA": 10}
+    },
+    {
+      "id": "zhuge_liang",
+      "name": "諸葛亮",
+      "english_name": "Zhuge Liang",
+      "era": "三國時期 (181-234 AD)",
+      "role": "軍事戰略家、政治家",
+      "teachings": "兵法、策略、治國之道",
+      "interactions": [
+        "學習兵法三十六計",
+        "協助制定戰略",
+        "研究古代政治制度"
+      ],
+      "reward_attributes": {"INT": 25, "WIS": 18, "CHA": 12}
+    },
+    {
+      "id": "da_vinci",
+      "name": "達芬奇",
+      "english_name": "Leonardo da Vinci",
+      "era": "文藝復興 (1452-1519)",
+      "role": "藝術家、科學家、工程師",
+      "teachings": "藝術、解剖學、工程設計",
+      "interactions": [
+        "學習繪畫與透視法",
+        "進行解剖學研究",
+        "參與機械設計"
+      ],
+      "reward_attributes": {"DEX": 20, "INT": 25, "WIS": 15}
+    },
+    {
+      "id": "newton",
+      "name": "牛頓",
+      "english_name": "Isaac Newton",
+      "era": "科學革命 (1643-1727)",
+      "role": "物理學家、數學家",
+      "teachings": "微積分、萬有引力、光學",
+      "interactions": [
+        "進行物理實驗",
+        "學習高等數學",
+        "推導自然法則"
+      ],
+      "reward_attributes": {"INT": 30, "WIS": 20}
+    },
+    {
+      "id": "marie_curie",
+      "name": "瑪麗·居里",
+      "english_name": "Marie Curie",
+      "era": "近代科學 (1867-1934)",
+      "role": "物理學家、化學家",
+      "teachings": "放射性、科學研究方法、女性科學家之路",
+      "interactions": [
+        "進行放射性元素研究",
+        "學習科學研究方法",
+        "參與科學論文發表"
+      ],
+      "reward_attributes": {"INT": 25, "WIS": 18, "CHA": 10}
+    },
+    {
+      "id": "michelangelo",
+      "name": "米開朗基羅",
+      "english_name": "Michelangelo",
+      "era": "文藝復興 (1475-1564)",
+      "role": "雕塑家、畫家、建築師",
+      "teachings": "雕塑藝術、人體解剖、建築設計",
+      "interactions": [
+        "協助創作西斯廷禮拜堂天頂畫",
+        "學習雕塑技法",
+        "參與建築項目"
+      ],
+      "reward_attributes": {"DEX": 25, "INT": 18, "CHA": 15}
+    }
+  ]
+}
