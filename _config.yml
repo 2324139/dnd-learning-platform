@@ -1,0 +1,15 @@
+title: D&D Learning Platform
+description: Gamified Educational System
+theme: jekyll-theme-slate
+github:
+  repository_url: https://github.com/2324139/dnd-learning-platform
+
+nav:
+  - text: 主頁
+    url: /
+  - text: 世界觀
+    url: /docs/worldbuilding.html
+  - text: 貢獻
+    url: /contributing.html
+  - text: GitHub
+    url: https://github.com/2324139/dnd-learning-platform

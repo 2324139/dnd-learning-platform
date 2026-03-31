@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D 學習平台 - 知識大陸冒險</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Microsoft YaHei', Arial, sans-serif; background: #1a1a2e; color: #eee; }
+        
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 3px solid #00d4ff;
+            margin-bottom: 40px;
+        }
+        
+        h1 { font-size: 3em; color: #00d4ff; text-shadow: 0 0 10px #00d4ff; margin-bottom: 10px; }
+        
+        .subtitle { font-size: 1.2em; color: #aaa; }
+        
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0; }
+        
+        .feature {
+            background: #0f3460;
+            padding: 20px;
+            border-left: 4px solid #00d4ff;
+            border-radius: 4px;
+        }
+        
+        .feature h3 { color: #00d4ff; margin-bottom: 10px; }
+        
+        .btn {
+            display: inline-block;
+            background: #00d4ff;
+            color: #000;
+            padding: 12px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px 10px 10px 0;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover { background: #00fff0; transform: translateY(-2px); }
+        
+        .demo { background: #0f3460; padding: 30px; border-radius: 4px; margin: 30px 0; }
+        
+        .character-card {
+            background: #1a1a2e;
+            border: 2px solid #00d4ff;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎲 D&D 學習平台</h1>
+            <p class="subtitle">以龍與地下城為主題的教育遊戲化系統</p>
+        </header>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🎭 7大職業</h3>
+                <p>法師、牧師、聖武士、德魯伊、吟遊詩人、知識守護者、賢者</p>
+            </div>
+            <div class="feature">
+                <h3>🗺️ 七大王國</h3>
+                <p>數學、物理、化學、生物、文學、歷史、哲學</p>
+            </div>
+            <div class="feature">
+                <h3>🎯 完整系統</h3>
+                <p>屬性、技能樹、進度、排行榜、社團、成就</p>
+            </div>
+            <div class="feature">
+                <h3>📖 單人跑團</h3>
+                <p>AI地下城主、故事分支、難度調整、動態反應</p>
+            </div>
+        </div>
+        
+        <div class="demo">
+            <h2>🎮 角色創建演示</h2>
+            <p>選擇你的職業：</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 20px 0;">
+                <button class="btn" onclick="selectClass('wizard')">🧙 法師</button>
+                <button class="btn" onclick="selectClass('cleric')">⛪ 牧師</button>
+                <button class="btn" onclick="selectClass('paladin')">⚔️ 聖武士</button>
+                <button class="btn" onclick="selectClass('druid')">🌳 德魯伊</button>
+            </div>
+            <div id="result"></div>
+        </div>
+        
+        <div style="margin-top: 40px; text-align: center;">
+            <a href="https://github.com/2324139/dnd-learning-platform" class="btn">查看完整項目</a>
+        </div>
+    </div>
+    
+    <script>
+        function selectClass(className) {
+            const classes = {
+                wizard: { name: '法師', domain: '數學', desc: '掌控魔法與邏輯的神秘學者' },
+                cleric: { name: '牧師', domain: '物理', desc: '引導聖域力量的祭祀' },
+                paladin: { name: '聖武士', domain: '化學', desc: '掌握鍊金術的戰士' },
+                druid: { name: '德魯伊', domain: '生物', desc: '與自然和諧共鳴的守護者' }
+            };
+            
+            const c = classes[className];
+            document.getElementById('result').innerHTML = `
+                <div class="character-card">
+                    <h3>${c.name}</h3>
+                    <p><strong>領域：</strong> ${c.domain}</p>
+                    <p><strong>描述：</strong> ${c.desc}</p>
+                    <p style="margin-top: 10px; color: #00d4ff;">即將推出完整角色創建系統...</p>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
